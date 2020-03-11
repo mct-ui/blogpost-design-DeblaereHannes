@@ -1,3 +1,15 @@
+/* fonts --- @font-face declaration*/
+@font-face {
+    font-family: "inter web";
+    font-weight: 400;
+    src: url("../fonts/Inter-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "inter b web";
+    font-weight: 700;
+    src: url("../fonts/Inter-Bold.woff2") format("woff2");
+}
 /*
     Elements: Page
     ---
@@ -7,8 +19,10 @@
 html {
     font-size: 16px;
     line-height: 1.5;
-    font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
+    font-family: "inter b web", Helvetica, arial, sans-serif;
     color: #5C6366;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     padding: 48px 24px 24px;
 }
 
@@ -51,10 +65,11 @@ h1,
 h2,
 h3 {
     color: #17181A;
+    font-family: "inter b web", Helvetica, arial, sans-serif;
 }
 
 h1 {
-    font-family: "Times New Roman", serif;
+    font-family: "playfaire display", serif;
     font-size: 36px;
     font-weight: normal;
     line-height: 40px;
