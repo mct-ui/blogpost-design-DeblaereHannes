@@ -220,6 +220,11 @@ a:focus {
 .c-article__body {
     padding: 0 24px;
 }
+
+.c-article__date {
+    padding: 0 0 0 0; 
+}
+
 @media (min-width: 992px){
     .c-article__body{
         display: flex;
